@@ -1,0 +1,12 @@
+.button-red {
+    background-color: #a32828;
+    border-color: #a32828;
+    color: white;
+}
+
+.button-red:hover {
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    background-color: #720000;
+    border-color: #720000;
+}
