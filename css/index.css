@@ -10,3 +10,32 @@
     background-color: #720000;
     border-color: #720000;
 }
+
+.button-outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px #212931;
+    color: #212931;
+    border: none;
+}
+
+.button-outline:hover {
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    background-color: #720000;
+    border-color: #720000;
+}
+
+.font-color-red-dark {
+    color: #720000;
+}
+
+.bgwhite {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.no-show {
+    display: none;
+}

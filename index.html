@@ -23,30 +23,142 @@
             <article id="webslides" class="horizontal">
                 <!-- Slide 1 -->
                 <section>
-                    <span class="background" style="background-image:url('images/bg-2.jpg')"></span>
+                    <span class="background" style="background-image:url('https://source.unsplash.com/xxeAftHHq6E/')"></span>
                     <div class="wrap">
                         <h1>
                             <strong>Deji Ojo</strong>
                             <p class="text-intro">
                                 Vancouver-based Web Developer with a background in Graphic Design
                             </p>
-                           <p>
-                               <a href="#slide=2" class="button button-red zoomIn">View Portfolio</a>
-                           </p>
+                            <p>
+                                <a href="#slide=3" class="button button-red zoomIn"><i class="fas fa-brush"></i> &nbsp; Design Portfolio</a>
+                            
+                                <a href="#slide=2" class="button button-red zoomIn"><i class="fas fa-code"></i> &nbsp; Development Portfolio</a>
+                            </p>
                         </h1>
                     </div>
                 </section>
 
                 <!-- Slide 2 -->
-                <section class="bg-black align-center"><h1>Slide 2</h1></section>
+                <section>
+                    <div class="wrap">
+                        <h2>
+                            <strong>
+                                Development Portfolio
+                            </strong>
+                        </h2>
+
+                        <p>
+                            My software development projects
+                        </p>
+
+                        <ul class="flexblock gallery">
+                            <li>
+                                <figure>
+                                    <img src="images/projects/funfindr/welcome2.jpg" alt="funfindr">
+                                    <figcaption>
+                                        <h2 class="font-color-red-dark">FunFindr</h2>
+                                        <p>A location finder and event planning app</p>
+                                    </figcaption>
+                                </figure>
+
+                                <p class="bgwhite">
+                                    <a href="https://github.com/Dei-Gee/FunFindr" class="button button-outline zoomIn"><i class="fab fa-github"></i> &nbsp; Github</a>
+                                
+                                    <a href="#slide=2" style="display: none;" class="button button-outline zoomIn"><i class="fas fa-eye"></i> &nbsp; Demo</a>
+                                </p>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="images/projects/old_portfolio/heroku_deji_mockup.jpg" alt="funfindr">
+                                    <figcaption>
+                                        <h2 class="font-color-red-dark">My Old Website</h2>
+                                        <p>The previous version of my portfolio website</p>
+                                    </figcaption>
+                                </figure>
+                                
+                                <p class="bgwhite">
+                                    <a href="https://github.com/Dei-Gee/my-portfolio-app" class="button button-outline zoomIn"><i class="fab fa-github"></i> &nbsp; Github</a>
+                                
+                                    <a href="https://enigmatic-river-99380.herokuapp.com/" class="button button-outline zoomIn"><i class="fas fa-eye"></i> &nbsp; Demo</a>
+                                </p>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="images/projects/acea/mockup-acea.jpg" alt="funfindr">
+                                    <figcaption>
+                                        <h2 class="font-color-red-dark">News Web App</h2>
+                                        <p>A simple crud app for uploading news articles</p>
+                                    </figcaption>
+                                </figure>
+
+                                <p class="bgwhite">
+                                    <a href="https://github.com/Dei-Gee/acea-news" class="button button-outline zoomIn"><i class="fab fa-github"></i> &nbsp; Github</a>
+                                
+                                    <a href="https://peaceful-lowlands-49526.herokuapp.com/" class="button button-outline zoomIn"><i class="fas fa-eye"></i> &nbsp; Demo</a>
+                                </p>
+                            </li>
+
+                            <li>
+                                <figure>
+                                    <img src="images/projects/bookr/Homepage.jpg" alt="funfindr">
+                                    <figcaption>
+                                        <h2 class="font-color-red-dark">Bookr</h2>
+                                        <p>A React app and an API built in Java</p>
+                                    </figcaption>
+                                </figure>
+
+                                <p class="bgwhite">
+                                    <a href="https://github.com/csis-3275/Bookr/tree/develop_beta" class="button button-outline zoomIn"><i class="fab fa-github"></i> &nbsp; Github</a>
+                                
+                                    <a href="https://peaceful-lowlands-49526.herokuapp.com/" style="display: none;" class="button button-outline zoomIn"><i class="fas fa-eye"></i> &nbsp; Demo</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
 
                 <!-- Slide 3 -->
                 <section>
-                    <span class="background" style="background-image:url('https://source.unsplash.com/nwfuaYecNUs/')"></span>
                     <div class="wrap">
-                        <h1>Slide 3</h1>
+                        <h2>
+                            <strong>
+                                Design Portfolio
+                            </strong>
+                        </h2>
+    
+                        <p>
+                            My software development projects
+                        </p>
+                        <ul class="flexblock gallery">
+                            <li onmouseenter="enterFunction()"  onmouseleave="leaveFunction()">
+                                <figure>
+                                    <img id="cat" src="images/projects/designs/alien_sky.jpg" alt="thumbnail" />
+                                </figure>
+                                <div class="overlay no-show">
+                                    <h2>Alien Sky</h2>
+                                </div>
+                            </li>
+                            <li onmouseenter="enterFunction()"  onmouseleave="leaveFunction()">
+                                <figure>
+                                    <img id="kitty cat" src="images/projects/designs/under_the_sea.jpg" alt="thumbnail" />
+                                </figure>
+                                <div class="overlay no-show">
+                                    <h2>Under The Sea</h2>
+                                </div>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="https://source.unsplash.com/IFxjDdqK_0U/800x600" alt="thumbnail" />
+                                </figure>
+                            </li>
+                        </ul>
                     </div>
                 </section>
+
+                
             </article>
         </main>
 
@@ -54,6 +166,20 @@
         <script src="js/webslides.min.js"></script>
         <script>
             window.ws = new WebSlides();
+            
+            function enterFunction()
+            {
+                let overlayDiv = window.event.currentTarget.querySelector("div.overlay");
+                overlayDiv.style.transition = "300ms";
+                overlayDiv.classList.remove("no-show");
+            }
+
+            function leaveFunction()
+            {
+                let overlayDiv = window.event.currentTarget.querySelector("div.overlay");
+                overlayDiv.style.transition = "300ms";
+                overlayDiv.classList.add("no-show");
+            }
         </script>
     </body>
 </html>
